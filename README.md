@@ -14,7 +14,8 @@ Currently 1-6 supports running in the tktinter interface
 
 7 Currently only runs in the compiler
 
-‘’‘c
+```c
+
 Here is the format of the input
 
                        The key that you need to pass
@@ -26,4 +27,4 @@ Base64                        NONE(dont need key)
 Column shift Cipher             k1
 Vernam Cipher                   k1
 
-'''
+```
