@@ -9,3 +9,8 @@ Implemented various file encryption algorithms.
 5)Base64
 6)Column shift Cipher
 7)Vernam Cipher
+
+Currently 1-6 supports running in the tktinter interface
+
+7 Currently only runs in the compiler
+
