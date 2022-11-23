@@ -19,12 +19,12 @@ Currently 1-6 supports running in the tktinter interface
 Here is the format of the input
 
                        The key that you need to pass
-Caesar Cipher                   k1
-Affine Cipher                a  and  b
-Vigener Cipher                  k1
-RSA Cipher                 p  and  q  and  e
+Caesar Cipher                    k1
+Affine Cipher                 a  and  b
+Vigener Cipher                   k1
+RSA Cipher                    p  and  q  and  e
 Base64                        NONE(dont need key)
-Column shift Cipher             k1
-Vernam Cipher                   k1
+Column shift Cipher              k1
+Vernam Cipher                    k1
 
 ```
