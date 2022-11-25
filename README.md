@@ -22,6 +22,7 @@
 ```
 
 #### Different requirements for different types of encryption and decryption algorithms
+#### Each key is separated by a space like: 3 4
 
 ```
                                    Key                    Input                    
@@ -36,4 +37,5 @@ Vernam Cipher                      k1
 Steganography               new_image_name(save)          message 
 ```
 #### Encryption and decryption can be achieved by reading a file or typing in a text box
+#### 
 
