@@ -3,9 +3,13 @@
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Install](#install)
 - [Usage](#usage)
 
+## Introduction
+
+### Encryption and decryption of files or in text boxes
 
 ## Install
 
