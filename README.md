@@ -11,6 +11,7 @@
 
 ```
 -pip install tkinter
+-pip install image
 ```
 
 
