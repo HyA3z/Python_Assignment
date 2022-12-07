@@ -13,3 +13,4 @@ Get the weather at the current ip address(Server)
 
 `python3 main.py`
 
+3. click https://t.me/Weather_ip_bot
