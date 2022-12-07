@@ -1,4 +1,4 @@
-# Weather
+# Weather telegram bot
 
 Get the weather at the current ip address(Server)
 
@@ -9,5 +9,4 @@ Get the weather at the current ip address(Server)
 pip install -r requirements.txt`
 python3 main.py`
 ```
-
-### click https://t.me/Weather_ip_bot
+click https://t.me/Weather_ip_bot
