@@ -158,7 +158,8 @@ class MY_GUI:
 
     def Decryption(self):
         if self.codeVar.get() == 0:
-            decry = Caesar.DeDecrypt(self.enText_input.get(1.0, END))
+            decry = Caesar.decrypt(self.enText_input.get(1.0, END),
+                                     int(self.enLabel_key.get('1.0', END)))
             self.enKey_output.insert(END, decry)
         elif self.codeVar.get() == 1:
             str_key = list(self.enLabel_key.get(1.0, END).split())
@@ -190,7 +191,7 @@ class MY_GUI:
         elif self.codeVar.get() == 5:
             str_key = list(self.enLabel_key.get(1.0, END))
             if len(str_key) != 1:
-                tkinter.messagebox.showerror('error', 'Enter only one key key')
+                tkinter.messagebox.showerror('error', 'Enter only one key')
             key = str_key[0]
             decry = Discode.Dis(2, self.enText_input.get(1.0, END), key)
             self.enKey_output.insert(END, decry)
